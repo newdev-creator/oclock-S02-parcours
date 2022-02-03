@@ -1,0 +1,106 @@
+
+
+.advert__large {
+    width:50vw;
+    margin:auto;
+    background-image: linear-gradient(45deg, #00FF99, #0519E8, #FF1398, #E88105, #D5FF05);
+}
+
+.advert__large__text {
+    font-size:1.5rem;
+    text-shadow: 1px 1px 1px lightgrey;
+}
+
+.cam-shop {
+    display:flex;
+    width:50vw;
+    margin:auto;
+    background-color:#01FFBE22;
+}
+
+.cam-shop__form-new-order {
+    width:50%;
+    padding:5%;
+}
+
+.cam-shop__form-new-order__title {
+    padding:2%;
+    font-weight:bold;
+    background-color:transparent;
+    color:#12B38A;
+    font-size:2rem;
+    text-shadow: 1px 1px 1px white;
+}
+
+.cam-shop__form-new-order__fieldset {
+    padding:5%;
+    box-shadow: 0px 0px 10px #12B38A;
+    border:#12B38A21 1px solid;
+}
+
+.cam-shop__form-new-order__fieldset > div {
+    padding:5%;
+    text-align: left;
+}
+
+.cam-shop__form-new-order__fieldset > div:last-child {
+    text-align:right;
+}
+
+.cam-shop__form-new-order__fieldset label {
+    color:grey;
+    font-weight: bold;
+}
+
+.cam-shop__form-new-order__fieldset input[type=submit] {
+    color:#12B38A;
+    background-color:#12B38A21;
+    border:#12B38A21 1px solid;
+    border-radius:5px;
+    padding:5px;
+    cursor:pointer;
+}
+
+.cam-shop__form-new-order__fieldset input[type=submit]:hover {
+    color:#12B38A;
+    background-color:#12B38A50;
+    border:#12B38A50 1px solid;
+    border-radius:5px;
+    padding:5px;
+    cursor:pointer;
+}
+
+.cam-shop__item-list {
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-content:space-around;
+}
+
+.cam-shop__item-list__figure {
+    width: 30%;
+    background-color:white;
+    padding:1%;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    align-content:space-around;
+    justify-content:flex-end;
+}
+
+.cam-shop__item-list__figure > img,
+.cam-shop__item-list__figure > figcaption {
+    display:block;
+}
+
+.cam-shop__item-list__figure__name {
+    font-size:0.8rem;
+    text-align:center;
+    font-weight:bold;
+}
+
+.cam-shop__item-list__figure__desc {
+    font-size:0.6rem;
+    text-align:center;
+}
